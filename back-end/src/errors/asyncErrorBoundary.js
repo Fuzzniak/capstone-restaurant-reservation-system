@@ -1,4 +1,5 @@
 // Ensure errors in async code are properly handled
+// For use in controllers
 
 function asyncErrorBoundary(delegate, defaultStatus) {
   return (request, response, next) => {
